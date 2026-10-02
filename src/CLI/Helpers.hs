@@ -13,6 +13,7 @@ import CLI.Types
 import CLI.Validators (invalidCLIArguments)
 import CST (EXPRESSION)
 import Canonizer (canonize, canonizeExpr)
+import qualified Filter as F
 import Compiled (compiled)
 import Control.Exception
 import Control.Monad ((>=>))
