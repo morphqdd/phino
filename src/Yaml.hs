@@ -14,7 +14,6 @@ module Yaml where
 import AST
 import Control.Applicative (asum, (<|>))
 import Data.Aeson
-import Data.Scientific (isInteger)
 import qualified Data.Aeson.Key as Key
 import qualified Data.Aeson.KeyMap as KeyMap
 import qualified Data.ByteString as BS
